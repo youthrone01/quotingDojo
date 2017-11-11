@@ -1,0 +1,8 @@
+<h1>Here are the awesome quotes!</h1>
+<% for(var i=0; i < quotes.length; i++){ %>
+    <h3><%= quotes[i].content %></h3>
+    <h5>---<%= quotes[i].name %> at <%= quotes[i].createdAt %></h5>
+    <hr>
+<%}%>
+
+<a href="/">home</a>
